@@ -1,0 +1,13 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+
+    name:
+        label: lx.book::lang.category.name
+        searchable: true
+
+    post_count:
+        label: lx.book::lang.category.number
+        sortable: false

@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: lx.book::lang.book.create_category
+form: ~/plugins/lx/book/models/category/fields.yaml
+modelClass: Lx\Book\Models\Category
+defaultRedirect: lx/book/categories
+
+create:
+    redirect: lx/book/categories/update/:id
+    redirectClose: lx/book/categories
+
+update:
+    redirect: lx/book/categories
+    redirectClose: lx/book/categories

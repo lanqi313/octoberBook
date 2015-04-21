@@ -1,0 +1,409 @@
+.====================================================================.
+                                                                      
+ .d8888b.   .o8888b.   db  .d8888b.  d8888b. d88888b d8888b.  .d888b. 
+.8P    Y8. d8P    Y8   88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8.
+88      88 8P      oooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88
+88      88 8b      ~~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88
+`8b    d8' Y8b    d8   88 `8b    d8' 88   8D 88.     88 `88. `8b | d8'
+ `Y8888P'   `Y8888P'   YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P' 
+                                                                      
+`========================== INSTALLATION LOG ========================'
+
+[2015/04/02 04:17:20] Host: Linux lx-virtual-machine 3.16.0-23-generic #31-Ubuntu SMP Tue Oct 21 18:00:35 UTC 2014 i686
+[2015/04/02 04:17:20] PHP version: 5.5.12-2ubuntu4.2
+[2015/04/02 04:17:20] Server software: Apache/2.4.10 (Ubuntu)
+[2015/04/02 04:17:20] Operating system: Linux
+[2015/04/02 04:17:20] Memory limit: 128M
+[2015/04/02 04:17:20] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:20] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:20] System check: phpVersion
+[2015/04/02 04:17:20] Requirement phpVersion +OK
+[2015/04/02 04:17:20] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:21] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:21] System check: curlLibrary
+[2015/04/02 04:17:21] Requirement curlLibrary +OK
+[2015/04/02 04:17:21] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:21] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:21] System check: liveConnection
+[2015/04/02 04:17:22] Server request: ping
+[2015/04/02 04:17:22] Request information: Array
+(
+    [url] => http://octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 579
+    [request_size] => 203
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.742718
+    [namelookup_time] => 0.052588
+    [connect_time] => 0.38027
+    [pretransfer_time] => 0.380885
+    [size_upload] => 72
+    [size_download] => 14
+    [speed_download] => 18
+    [speed_upload] => 96
+    [download_content_length] => 14
+    [upload_content_length] => 72
+    [starttransfer_time] => 0.742674
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 50.116.3.170
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.1.143
+    [local_port] => 54508
+)
+
+[2015/04/02 04:17:22] Requirement liveConnection +OK
+[2015/04/02 04:17:22] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:22] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:22] System check: writePermission
+[2015/04/02 04:17:22] Requirement writePermission +OK
+[2015/04/02 04:17:22] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:23] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:23] System check: pdoLibrary
+[2015/04/02 04:17:23] Requirement pdoLibrary +OK
+[2015/04/02 04:17:23] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:23] Postback payload: Array
+(
+    [code] => mcryptLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:23] System check: mcryptLibrary
+[2015/04/02 04:17:23] Requirement mcryptLibrary +OK
+[2015/04/02 04:17:23] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:24] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:24] System check: mbstringLibrary
+[2015/04/02 04:17:24] Requirement mbstringLibrary +OK
+[2015/04/02 04:17:24] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:24] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:24] System check: sslLibrary
+[2015/04/02 04:17:24] Requirement sslLibrary +OK
+[2015/04/02 04:17:24] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:25] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:25] System check: zipLibrary
+[2015/04/02 04:17:25] Requirement zipLibrary +OK
+[2015/04/02 04:17:25] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:17:26] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/02 04:17:26] System check: gdLibrary
+[2015/04/02 04:17:26] Requirement gdLibrary +OK
+[2015/04/02 04:17:26] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2015/04/02 04:50:27] Saving to file (core): /var/www/myoctober/install-master/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/02 04:50:27] Step downloadCore +OK
+[2015/04/02 04:50:27] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+[2015/04/02 04:51:24] Saving to file (core): /var/www/myoctober/install-master/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/02 04:51:24] Step downloadCore +OK
+[2015/04/02 04:51:24] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:51:25] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 8c4d2e8771d041d411737d8a462917e9
+                    [build] => 238
+                    [uhash] => 48a31188c0d15135af322d2da6919574
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2015/04/02 04:51:25] Install step: extractCore
+[2015/04/02 04:51:25] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/02 04:51:41] Step extractCore +OK
+[2015/04/02 04:51:41] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:51:42] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 8c4d2e8771d041d411737d8a462917e9
+                    [build] => 238
+                    [uhash] => 48a31188c0d15135af322d2da6919574
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => 192.168.1.213
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2015/04/02 04:51:42] Install step: setupConfig
+[2015/04/02 08:51:43] Step setupConfig +OK
+[2015/04/02 08:51:43] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:51:44] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 8c4d2e8771d041d411737d8a462917e9
+                    [build] => 238
+                    [uhash] => 48a31188c0d15135af322d2da6919574
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => 192.168.1.213
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2015/04/02 04:51:44] Install step: createAdmin
+[2015/04/02 08:51:46] Handler error (onInstallStep): The password must be between 4 - 64 characters.
+[2015/04/02 08:51:46] Trace log:
+#0 /var/www/myoctober/install-master/vendor/october/rain/src/Database/Traits/Validation.php(63): October\Rain\Auth\Models\User->validate()
+#1 [internal function]: October\Rain\Auth\Models\User::October\Rain\Database\Traits\{closure}(NULL, Array)
+#2 /var/www/myoctober/install-master/vendor/october/rain/src/Support/Traits/Emitter.php(135): call_user_func_array(Object(Closure), Array)
+#3 /var/www/myoctober/install-master/vendor/october/rain/src/Database/Model.php(1041): October\Rain\Database\Model->fireEvent('model.saveInter...', Array, true)
+#4 /var/www/myoctober/install-master/vendor/october/rain/src/Database/Model.php(1082): October\Rain\Database\Model->saveInternal(NULL, Array)
+#5 /var/www/myoctober/install-master/vendor/october/rain/src/Database/Model.php(187): October\Rain\Database\Model->save(NULL, NULL)
+#6 /var/www/myoctober/install-master/modules/backend/database/seeds/SeedSetupAdmin.php(44): October\Rain\Database\Model::create(Array)
+#7 /var/www/myoctober/install-master/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(37): Backend\Database\Seeds\SeedSetupAdmin->run()
+#8 /var/www/myoctober/install-master/modules/backend/database/seeds/DatabaseSeeder.php(18): Illuminate\Database\Seeder->call('Backend\\Databas...')
+#9 /var/www/myoctober/install-master/modules/system/classes/UpdateManager.php(360): Backend\Database\Seeds\DatabaseSeeder->run()
+#10 /var/www/myoctober/install-master/modules/system/classes/UpdateManager.php(139): System\Classes\UpdateManager->seedModule('Backend')
+#11 /var/www/myoctober/install-master/install_files/php/Installer.php(504): System\Classes\UpdateManager->update()
+#12 /var/www/myoctober/install-master/install_files/php/Installer.php(369): Installer->createAdminAccount()
+#13 /var/www/myoctober/install-master/install_files/php/Installer.php(48): Installer->onInstallStep()
+#14 /var/www/myoctober/install-master/install_files/php/boot.php(74): Installer->__construct()
+#15 /var/www/myoctober/install-master/install.php(1): include('/var/www/myocto...')
+#16 {main}
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:52:10] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 8c4d2e8771d041d411737d8a462917e9
+                    [build] => 238
+                    [uhash] => 48a31188c0d15135af322d2da6919574
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => 192.168.1.213
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2015/04/02 04:52:10] Install step: createAdmin
+[2015/04/02 08:52:10] Step createAdmin +OK
+[2015/04/02 08:52:10] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:52:10] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2015/04/02 04:52:10] Install step: setupProject
+[2015/04/02 04:52:10] Step setupProject +OK
+[2015/04/02 04:52:10] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/02 04:52:11] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 8c4d2e8771d041d411737d8a462917e9
+                    [build] => 238
+                    [uhash] => 48a31188c0d15135af322d2da6919574
+                )
+
+        )
+
+    [hash] => 8c4d2e8771d041d411737d8a462917e9
+    [build] => 238
+    [uhash] => 48a31188c0d15135af322d2da6919574
+    [handler] => onInstallStep
+)
+
+[2015/04/02 04:52:11] Install step: finishInstall
+[2015/04/02 08:52:11] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/02 08:52:11] Step finishInstall +OK
+[2015/04/02 08:52:11] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+

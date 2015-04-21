@@ -1,0 +1,40 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+scopes:
+
+    category:
+
+        # Filter name
+        label: lx.book::lang.posts.category
+
+        # Model Class name
+        modelClass: Lx\Book\Models\Category
+
+        # Model attribute to display for the name
+        nameFrom: name
+
+        # Apply query scope
+        scope: FilterCategories
+
+    published:
+
+        # Filter name
+        label: lx.book::lang.posts.hide_borrowed
+
+        # Filter type
+        type: checkbox
+
+        # SQL Conditions
+        conditions: published <> 1
+
+    content:
+
+        # Filter name
+        label: lx.book::lang.posts.hide_unborrowed
+
+        # Filter type
+        type: checkbox
+
+        # SQL Conditions
+        conditions: published <> 0

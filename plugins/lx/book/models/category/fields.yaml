@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+fields:
+
+    name:
+        label: lx.book::lang.category.name
+        placeholder: lx.book::lang.category.name_placeholder
+        span: left
+
+    slug:
+        label: lx.book::lang.category.slug
+        span: right
+        placeholder: lx.book::lang.category.slug_placeholder
+        preset: name

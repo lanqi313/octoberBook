@@ -1,0 +1,74 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    bookname:
+        label: lx.book::lang.post.book_name
+        span: left
+
+    isbn:
+        label: lx.book::lang.post.isbn
+        span: right
+
+    toolbar:
+        type: partial
+        path: post_toolbar
+        cssClass: collapse-visible
+
+# tabs:
+#   fields:
+
+#     excerpt:
+#       tab: Details
+#       label: Excerpt
+#       type: textarea
+#       size: small
+
+secondaryTabs:
+    stretch: true
+    fields:
+
+
+        categories:
+            tab: lx.book::lang.post.categories
+            type: relation
+            commentAbove: lx.book::lang.post.categories_comment
+            placeholder: lx.book::lang.post.categories_placeholder
+            cssClass: padded-container
+
+        published:
+            tab: lx.book::lang.post.tab_manage
+            label: lx.book::lang.post.borrowed
+            span: left
+            type: checkbox
+
+        published_at:
+            tab: lx.book::lang.post.tab_manage
+            label: lx.book::lang.post.borrowed_on
+            span: left
+            cssClass: checkbox-align
+            type: datepicker
+            mode: date
+
+        user_name:
+          tab: lx.book::lang.post.tab_manage
+          label: lx.book::lang.post.user_name
+          type: dropdown
+
+        content:
+            tab: lx.book::lang.post.tab_manage
+            label: lx.book::lang.post.note
+            type: textarea
+            size: small
+
+        # visibility:
+        #   tab: Manage
+        #   label: Visibility
+        #   type: balloon-selector
+        #   options:
+        #     - Public
+        #     - Sticky
+        #     - Private
+

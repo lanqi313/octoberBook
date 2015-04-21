@@ -1,0 +1,41 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+
+  bookname:
+    label: lx.book::lang.post.book_name
+    searchable: true
+
+  # author:
+  #   label: Author
+  #   relation: user
+  #   select: login
+  #   searchable: true
+  isbn:
+    label: lx.book::lang.post.isbn
+  user_name:
+    label: lx.book::lang.post.user_name
+    searchable: true
+
+  categories:
+    label: lx.book::lang.post.categories
+    relation: categories
+    select: name
+    searchable: true
+    sortable: false
+
+  created_at:
+    label: lx.book::lang.post.created
+    type: date
+    invisible: true
+
+  updated_at:
+    label: lx.book::lang.post.updated
+    type: date
+    invisible: true
+
+  published_at:
+    label: lx.book::lang.post.borrowed
+    type: date

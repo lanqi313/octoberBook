@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: lx.book::lang.post.name
+
+# Model Form Field configuration
+form: $/lx/book/models/post/fields.yaml
+
+# Model Class name
+modelClass: Lx\Book\Models\Post
+
+# Default redirect location
+defaultRedirect: lx/book/posts
+
+# Create page
+create:
+    title: Create Post
+    redirect: lx/book/posts/update/:id
+    redirectClose: lx/book/posts
+
+# Update page
+update:
+    title: Edit Post
+    redirect: lx/book/posts
+    redirectClose: lx/book/posts
+
+# Preview page
+preview:
+    title: Preview Post

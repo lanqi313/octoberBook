@@ -1,0 +1,12 @@
+<div class="scoreboard">
+    <div data-control="toolbar">
+        <div class="scoreboard-item control-chart" data-control="chart-pie">
+            <ul>
+                <li data-color="#95b753"><?= e(trans('lx.book::lang.book.chart_borrowed')) ?> <span><?= $postsPublished ?></span></li>
+                <li data-color="#e5a91a"><?= e(trans('lx.book::lang.book.chart_stay')) ?> <span><?= $postsDrafts ?></span></li>
+                <li data-color="#cccccc"><?= e(trans('lx.book::lang.book.chart_all')) ?> <span><?= $postsTotal ?></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<?= $this->listRender() ?>

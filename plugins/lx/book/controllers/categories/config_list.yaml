@@ -1,0 +1,37 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+# Model List Column configuration
+list: ~/plugins/lx/book/models/category/columns.yaml
+
+# Model Class name
+modelClass: Lx\Book\Models\Category
+
+# List Title
+title: lx.book::lang.categories.list_title
+
+# Link URL for each record
+recordUrl: lx/book/categories/update/:id
+
+# Message to display if the list is empty
+noRecordsMessage: backend::lang.list.no_records
+
+# Records to display per page
+recordsPerPage: 10
+showCheckboxes: true
+
+# Display checkboxes next to each record
+# showCheckboxes: true
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    buttons: list_toolbar
+
+    # Search widget configuration
+    search:
+        prompt: backend::lang.list.search_prompt
+
+
+
